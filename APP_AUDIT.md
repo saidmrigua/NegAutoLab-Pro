@@ -212,3 +212,23 @@ All other findings are low-risk robustness improvements, maintenance items, or i
 **Suggested filename:** `APP_AUDIT.md`
 
 This document is ready for GitHub or internal documentation use. No code changes are included or implied.
+
+---
+
+## File Structure
+
+.git/
+.gitignore
+.venv/
+LICENSE
+README.md
+core/
+docs/
+icc/
+main.py
+manual_crop_tool.py
+models/
+requirements.txt
+services/
+tests/
+ui/
