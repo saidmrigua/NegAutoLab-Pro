@@ -46,6 +46,87 @@ LICENSE
 README.md
 ```
 
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/saidmrigua/NegAutoLab-Pro.git
+cd NegAutoLab-Pro
+```
+
+### 2. Create a virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python main.py
+```
+
+## Interface Preview
+
+Add your screenshots in the `assets/screenshots/` folder and update the filenames below if needed.
+
+### Main Window
+
+![Main Window](assets/screenshots/main-window.png)
+
+### Editing Workflow
+
+![Editing Workflow](assets/screenshots/edit-workflow.png)
+
+### Before / After Preview
+
+![Before / After Preview](assets/screenshots/before-after.png)
+
+## Sample Scans
+
+Add your sample images in the `assets/samples/` folder and update the filenames below if needed.
+
+### Sample Input
+
+![Sample Input](assets/samples/sample-input-01.jpg)
+
+### Sample Result
+
+![Sample Result](assets/samples/sample-result-01.jpg)
+
+## Demo Video
+
+A short workflow demo can be included in the repository:
+
+[Watch the demo video](assets/demo/negautolab-demo.mp4)
+
+## Recommended Workflow for Best Results
+
+For the best and most consistent results:
+
+1. Import the image first
+2. Apply crop before starting detailed adjustments
+3. Use the crop to isolate only the real image area and remove unnecessary borders
+4. If multiple images share the same framing, apply the same crop consistently across them
+5. After cropping, begin the main editing workflow such as inversion, white balance, tone, and color correction
+
+Cropping early helps the software focus on the useful image area and improves consistency for inversion, border correction, and color rendering.
+
 ## Workflow
 
 1. Open one or more images
@@ -81,7 +162,7 @@ NegAutoLab Pro supports:
 
 ## Documentation
 
-Additional internal documentation is included in the `docs/` folder:
+Additional documentation is included in the `docs/` folder:
 
 - `docs/ARCHITECTURE.md`
 - `docs/APP_AUDIT.md`
@@ -100,3 +181,9 @@ For commercial licensing inquiries, contact: **saidmrigua@gmail.com**
 
 **Said Mrigua**  
 Email: **saidmrigua@gmail.com**
+
+## Sample Scans
+
+Some sample images included in this repository are used with permission for testing and demonstration purposes.
+
+**Credit:** Sample image used with permission from **.liznin.** (from **r/AnalogCommunity**). Original image rights remain with the owner.
