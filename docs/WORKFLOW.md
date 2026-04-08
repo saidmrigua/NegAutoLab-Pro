@@ -56,6 +56,18 @@ Open the export dialog and choose:
 
 The application exports using the active non-destructive settings for each image.
 
+### 8 Recommended Workflow for Best Results
+
+For the best and most consistent results, it is recommended to:
+
+1. Import the image first
+2. Apply the crop before starting detailed adjustments
+3. Use the crop to isolate only the real image area and remove unnecessary borders
+4. If multiple images share the same framing, apply the same crop consistently across them
+5. After cropping, begin the main editing workflow such as inversion, white balance, tone, and color correction
+
+Cropping early helps the software focus on the useful image area and can improve the accuracy of negative correction, border sampling, and overall rendering consistency.
+
 ---
 
 ## Tips
